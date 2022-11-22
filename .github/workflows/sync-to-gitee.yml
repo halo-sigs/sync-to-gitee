@@ -24,4 +24,5 @@ jobs:
         dst_token: ${{ secrets.GITEE_TOKEN }}
         force_update: true
         account_type: org
+        black_list: '.github'
 
